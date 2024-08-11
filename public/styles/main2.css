@@ -1,0 +1,104 @@
+body{
+    background-image: url(https://images.gr-assets.com/misc/1716480939-1716480939_goodreads_misc.png);
+    /* background-image: url(https://images.gr-assets.com/misc/1716222515-1716222515_goodreads_misc.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(3, 54, 3);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+/* .logo{
+  width: 110px;
+  height: 80px;
+} */
+/* #images {
+  margin: 10px 20px 10px 30px;
+  width: 95%;
+  height: 450px;
+  background-size: cover;
+} */
+#header{
+  display: flex;
+  flex-direction: row;
+  /* background-color: #f5e3b7; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 70px;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  justify-content: space-between;
+}
+.addView{
+  display: flex;
+  font-size: 28px;
+  color: darkred;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+ul li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    font-size: 21px;
+}
+a{
+  text-decoration: none;
+  /* color:rgb(3, 54, 3); */
+  /* color: whitesmoke; */
+  color: yellow;
+  font-size: 24.5px;
+  font-weight: bold;
+}
+
+a:hover{
+  /* color: yellow; */
+   color:rgb(3, 54, 3);
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0 0;
+    
+}
+
+form{
+    background-color: beige;
+    height: 520px;
+    width: 392px;
+    border-radius: 20px;
+}
+h2{
+    
+    text-align: center;
+    text-decoration: underline;
+}
+.container{
+    margin: 7px 12px;
+    font-size: 25px;
+}
+input{
+    width: 70%;
+    height: 30px;
+    border: 1.5px solid rgb(21, 128, 138);
+}
+textarea{
+    width: 70%;
+    height: 30px;
+    border: 1.5px solid rgb(21, 128, 138);
+}
+.btn{
+    display: flex;
+    flex-direction: row-reverse;
+}
+button{
+    background-color: rgb(24, 143, 154);
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    font-size: 29px;
+    margin: 0 20px 10px 0px ;
+}
